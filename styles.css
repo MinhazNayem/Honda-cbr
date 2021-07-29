@@ -1,0 +1,14 @@
+
+.color-bike-gray{
+    filter: gray;
+    filter: grayscale(1);
+}
+header{
+    background-color: #264653;
+}
+.man-3{
+    height: 415px;
+}
+.near{
+    width: 100%;
+}
