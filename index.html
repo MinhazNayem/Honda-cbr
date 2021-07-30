@@ -4,41 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width\, initial-scale=1.0">
     <title>Minhaz's Honda Cbr</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7ea2768098.js" crossorigin="anonymous"></script>
+
     <!-- bootstrap stylesheet -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- bootstrap script    -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
     <!-- Header start -->
+
     <header>
-        <div class="d-lg-flex">
-            <div class="d-flex align-items-center w-75 text-white">
-                <div>
+        <div class="container d-lg-flex justify-content-between align-items-center" style="height: 550px;">
+            <div>
+                <div class="text-white w-75">
                     <p>Computer-controlled digital transistorized with electronic advance</p>
+
                     <h1>Honda CBR 300R</h1>
-                    <p>The Honda CBR models are a series ntrof Honda sport bikes first introduced in 1983. With the
+                    <p>The Honda CBR models are a series of Honda sport bikes first introduced in 1983. With the
                         exception of the single-cylinder CBR125R, CBR150R.</p>
                 </div>
-            </div>
-            <div class="d-flex align-items-center">
-                <div>
-                    <img src="images/header-bike.png" class="img-fluid" alt="">
+                <div class="text-white">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn top-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-primary" id="exampleModalLabel">Purchase It</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body text-dark">
+                                    <p>The Honda CBR models are a series of Honda sport bikes first introduced in 1983.
+                                        With the exception of the single-cylinder CBR125R, CBR150R, CBR250R and CBR300R,
+                                        all CBR motorbikes have inline engines. Less sporting/general models make up CB
+                                        series.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary">Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+            <div>
+                <div><img src="./images/header-bike.png" class="img-fluid w-75" alt=""></div>
             </div>
         </div>
     </header>
     <!-- Header end -->
+
     <main>
+
         <!-- Fetured Bikes start -->
-        <section class="container my-5">
+
+        <section class="container my-5 py-5">
             <div class="text-center">
                 <h1 class="fw-bold text-center">Fetured Bikes 2021</h1>
                 <p class="text-danger fw-bold text-center">Best bike collection</p>
@@ -63,60 +97,232 @@
                 </div>
             </div>
         </section>
+
+        <!-- Happy Clients Start -->
+
         <section class="container my-5">
             <div class="text-center">
-                <h1 class="fw-bold text-center">Happy Clients says</h1>
+                <h1 class="fw-bold text-center py-5">Happy <span class="orange">Clients says</span></h1>
             </div>
             <div class="row gx-4 gy-3">
                 <div class="col-lg-4 col-12 col-md-6">
                     <div class="d-flex justify-content-center">
-                        <div class="card" style="height: 500px;">
+                        <div class="card">
                             <div class="d-flex justify-items-center align-items-center">
-                                <img class="card-img-top near rounded-circle w-75" src="images/user-1.png"
+                                <img class="card-img-top near mx-auto rounded-circle w-75" src="images/user-1.png"
                                     alt="Card image cap">
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-body text-center">
+                                <p class="card-text">Slate helps you see how many more days you need to work to reach
+                                    your financial
+                                    goal for the month and year.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <div class="d-flex ">
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-center pt-2">Regina Miles </p>
+                                            <p class="fw-bold text-center pb-5">Banker</p>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 col-md-6">
                     <div class="d-flex justify-content-center">
-                        <div class="card" style="height: 500px;">
+                        <div class="card" style="height: 585px;">
                             <div class="d-flex justify-items-center align-items-center">
-                                <img class="card-img-top near rounded-circle w-75" src="images/user-2.png"
+                                <img class="card-img-top near mx-auto rounded-circle w-75" src="images/user-2.png"
                                     alt="Card image cap">
                             </div>
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="card-body text-center">
+                                <p class="card-text">Slate helps you see how many more days you need to work to reach
+                                    your financial
+                                    goal for the month and year.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <div class="d-flex ">
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-center pt-2">Regina Miles </p>
+                                            <p class="fw-bold text-center pb-5">Banker</p>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 col-md-6">
                     <div class="d-flex justify-content-center color">
-                        <div class="card" style="height: 645px;">
-                            <img class="card-img-top man-3 rounded-circle w-50 mx-auto" src="images/user-3.jpg"
-                                height="50" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="card">
+                            <img class="card-img-top w-75 m-auto rounded-circle" src="images/user-3.jpg" height="310"
+                                alt="Card image cap">
+                            <div class="card-body text-center">
+                                <p class="card-text">Slate helps you see how many more days you need to work to reach
+                                    your financial
+                                    goal for the month and year.</p>
+                                <div class="d-flex justify-content-center">
+                                    <div>
+                                        <div class="d-flex ">
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star orange"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <div>
+                                            <p class="text-primary text-center pt-2">Regina Miles </p>
+                                            <p class="fw-bold text-center pb-5">Banker</p>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Frequently Asked start -->
+
+        <section class="container">
+            <h1 class="text-center py-5">Frequently Asked <span class="orange">Questions</span></h1>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <img src="./images/faq.png" class="img-fluid w-75" alt="">
+                </div>
+                <div class="col-lg-6 col-12 d-flex align-items-center">
+
+                    <div class="accordion w-100" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <b>What are the most important things I should know about riding a bike?</b>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Safety First!</strong> Always obey the rules of the road. Obey all traffic
+                                    signals, signs, and laws. Get in the mindset of “driving” your bike—not just
+                                    “riding” your bike. This will help you be a more focused and legally compliant bike
+                                    rider.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <b>How can I tell if my helmet is old and I need a new one?</b>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Bear in mind that if the
+                                    helmet did its job most people would tell you that they did not even hit their head,
+                                    or did not hit their head that hard. And the thin shells on most helmets now tend to
+                                    hide any dents in the foam. But if<strong>you can see marks on the shell or measure
+                                        any
+                                        foam crush at all</strong> , replace the helmet.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <b>My bike has been in storage is it safe to ride?</b>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Its <strong>entirely possible the bike is good and safe to ride with a bit of air in
+                                        the tires and shocks</strong>/forks - this would heavily depend on the climate
+                                    in the garage it was stored in and condition it was in before being hung up.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <b>What rules should I follow when riding my bike?</b>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>When riding, always:</strong>
+                                    1. Go With the Traffic Flow. Ride on the right in the same direction as other
+                                    vehicles. ...
+                                    2. Obey All Traffic Laws. A bicycle is a vehicle and you're a driver. ...
+                                    3. Yield to Traffic When Appropriate. ...
+                                    4. Be Predictable. ...
+                                    5. Stay Alert at All Times. ...
+                                    6. Look Before Turning. ...
+                                    7. Watch for Parked Cars.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Review Bikes Start -->
+
+        <div class="container w-75">
+            <h1 class="text-center py-5">Most <span class="orange">Review</span> Bike</h1>
+            <div class="row">
+                <div class="col-lg-4 col-12 col-nd-6">
+                    <div><iframe height="315" src="https://www.youtube.com/embed/lXIBp9K_Xaw"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe></div>
+                </div>
+                <div class="col-lg-4 col-12 col-nd-6">
+                    <iframe height="315" src="https://www.youtube.com/embed/y2i3qna9d7U" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-lg-4 col-12 col-nd-6">
+                    <iframe height="315" src="https://www.youtube.com/embed/qq5DUoOXHMQ" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <!-- bootstrap script    -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

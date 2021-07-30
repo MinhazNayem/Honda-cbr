@@ -7,8 +7,17 @@ header{
     background-color: #264653;
 }
 .man-3{
-    height: 415px;
+    height: 150px;
+    width: 150;
+    border-radius: 50%;
 }
 .near{
     width: 100%;
+}
+.orange{
+    color: orange !important;
+}
+.top-btn{
+    color: white !important;
+    background-color: #E76F51 !important;
 }
